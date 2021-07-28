@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
    
     @IBOutlet weak var findButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -27,6 +28,8 @@ class ViewController: UIViewController {
         
         let calendar = Calendar.current
         var dateComponents = DateComponents()
+        
+        
         guard let day = Int(dayTextField.text!), let month = Int(monthTextField.text!), let year = Int(yearTextField.text!)
         else{
            warningPopup(withTitle: "Input Error!", withMessage: "Date Text Fields can't be empty!")
@@ -36,6 +39,7 @@ class ViewController: UIViewController {
         dateComponents.day = day
         dateComponents.month = month
         dateComponents.year = year
+        
         guard let date = calendar.date(from: dateComponents) else {
             return
         }
