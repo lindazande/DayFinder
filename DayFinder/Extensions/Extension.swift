@@ -6,9 +6,9 @@
 //
 
 import UIKit
-//extension AppearenceViewController{
-  // override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
-//
-   //}
-//
-//}
+extension AppearenceViewController{
+  override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+
+}
+
+}
