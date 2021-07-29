@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bGX-Hb-PAL">
-    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <device id="ipad10_2" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,17 +13,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DayFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="day" translatesAutoresizingMaskIntoConstraints="NO" id="K7k-0s-2GO">
-                                <rect key="frame" x="-9" y="-46" width="676" height="421"/>
+                                <rect key="frame" x="-9" y="-28" width="819" height="1108"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="F5A-FX-2qJ">
-                                <rect key="frame" x="20" y="52" width="627" height="360"/>
+                                <rect key="frame" x="20" y="130" width="770" height="360"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="Zgw-x6-qEw">
-                                        <rect key="frame" x="156" y="0.0" width="315" height="231"/>
+                                        <rect key="frame" x="195" y="0.0" width="380" height="231"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Your Day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="va4-Sa-VsW">
                                                 <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
@@ -43,7 +43,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uEY-EA-k6p">
-                                                <rect key="frame" x="0.0" y="95" width="310" height="136"/>
+                                                <rect key="frame" x="0.0" y="95" width="380" height="136"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="DLn-kK-oEv">
                                                         <rect key="frame" x="0.0" y="0.0" width="70" height="136"/>
@@ -83,10 +83,10 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="DA1-gu-xmw">
-                                                        <rect key="frame" x="80" y="0.0" width="230" height="136"/>
+                                                        <rect key="frame" x="80" y="0.0" width="300" height="136"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XI5-f4-MS1">
-                                                                <rect key="frame" x="0.0" y="0.0" width="230" height="34"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="300" height="34"/>
                                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="34" id="eb6-US-O2U"/>
@@ -99,7 +99,7 @@
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                             </textField>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XOl-0j-b0l">
-                                                                <rect key="frame" x="0.0" y="51" width="230" height="34"/>
+                                                                <rect key="frame" x="0.0" y="51" width="300" height="34"/>
                                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="230" id="I7q-MH-NOU">
@@ -111,7 +111,7 @@
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="seC-hS-rGe">
-                                                                <rect key="frame" x="0.0" y="102" width="230" height="34"/>
+                                                                <rect key="frame" x="0.0" y="102" width="300" height="34"/>
                                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="230" id="Kc1-v8-tYj">
@@ -142,7 +142,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="pEJ-q1-Da5">
-                                        <rect key="frame" x="213.5" y="239" width="200" height="121"/>
+                                        <rect key="frame" x="285" y="239" width="200" height="121"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day of the week inside your finder" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jL-x2-NFb">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="70"/>
@@ -207,9 +207,15 @@
                     <navigationItem key="navigationItem" title="Day Finder" id="FDR-Tv-6Mh">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="info.circle" catalog="system" id="kRG-TH-uMq">
                             <color key="tintColor" systemColor="labelColor"/>
+                            <connections>
+                                <segue destination="mdA-fL-xjX" kind="push" identifier="dayfinder" id="Taf-hD-wNQ"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="moon" image="moon.circle.fill" catalog="system" id="sf8-Ab-pzL">
                             <color key="tintColor" systemColor="labelColor"/>
+                            <connections>
+                                <segue destination="j62-eC-dti" kind="presentation" id="hh9-NM-lbQ"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -224,13 +230,133 @@
             </objects>
             <point key="canvasLocation" x="1035" y="80"/>
         </scene>
+        <!--Info View Controller-->
+        <scene sceneID="YcH-fZ-4Ce">
+            <objects>
+                <viewController id="mdA-fL-xjX" customClass="InfoViewController" customModule="DayFinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8im-d9-Ozo">
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="hgd-pI-WZ8">
+                                <rect key="frame" x="332" y="469.5" width="146" height="141"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AU1-WS-syf">
+                                        <rect key="frame" x="0.0" y="0.0" width="146" height="62"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="146" id="7ze-Mf-epa"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="62" id="tpC-JU-PQa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wel-nH-uT5">
+                                        <rect key="frame" x="0.0" y="79" width="146" height="62"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="62" id="l0J-zR-4cD"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="146" id="trg-We-DfX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rkw-Vc-mqB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hgd-pI-WZ8" firstAttribute="centerY" secondItem="8im-d9-Ozo" secondAttribute="centerY" id="cx6-PV-haH"/>
+                            <constraint firstItem="hgd-pI-WZ8" firstAttribute="centerX" secondItem="8im-d9-Ozo" secondAttribute="centerX" id="hGs-A8-P5S"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="CwR-Zl-YnQ"/>
+                    <connections>
+                        <outlet property="appDescLabel" destination="Wel-nH-uT5" id="fKf-bb-nW1"/>
+                        <outlet property="appInfoLabel" destination="AU1-WS-syf" id="KmJ-ba-MKc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lmh-qa-EsQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1061.5999999999999" y="805.54722638680664"/>
+        </scene>
+        <!--Appearence View Controller-->
+        <scene sceneID="Mse-SD-prd">
+            <objects>
+                <viewController id="j62-eC-dti" customClass="AppearenceViewController" customModule="DayFinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99D-4s-YQS">
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCn-An-Lzd">
+                                <rect key="frame" x="739" y="26" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3474923372" green="0.51034975049999998" blue="0.51124072070000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="23"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="closeButtonTapped:" destination="j62-eC-dti" eventType="touchUpInside" id="Flf-Wr-QMJ"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="D16-Dc-Bb3">
+                                <rect key="frame" x="327" y="476.5" width="156" height="127"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Light Mode is On" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bI-we-Cjv">
+                                        <rect key="frame" x="0.0" y="0.0" width="156" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="Rza-Qn-KNI"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="156" id="YWc-N0-fXR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syH-ff-0Sj">
+                                        <rect key="frame" x="0.0" y="97" width="156" height="30"/>
+                                        <color key="backgroundColor" red="0.3474923372" green="0.51034975049999998" blue="0.51124072070000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="156" id="J1R-QH-xKY"/>
+                                            <constraint firstAttribute="height" constant="30" id="Vd7-q0-rj7"/>
+                                        </constraints>
+                                        <state key="normal" title="Open Settings">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="openSettingsTapped:" destination="j62-eC-dti" eventType="touchUpInside" id="Xto-1u-gan"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fXp-tF-PbF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="D16-Dc-Bb3" firstAttribute="centerY" secondItem="99D-4s-YQS" secondAttribute="centerY" id="oJm-av-opI"/>
+                            <constraint firstItem="D16-Dc-Bb3" firstAttribute="centerX" secondItem="99D-4s-YQS" secondAttribute="centerX" id="ud6-xo-HVO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textLabel" destination="0bI-we-Cjv" id="Vtd-gf-09P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sic-mJ-4qv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1960.8" y="114.69265367316342"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="F06-Ip-BHv">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bGX-Hb-PAL" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="H9z-qn-24n">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" systemColor="labelColor"/>
@@ -261,6 +387,9 @@
         </systemColor>
         <systemColor name="separatorColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

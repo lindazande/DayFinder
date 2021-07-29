@@ -82,4 +82,15 @@ class ViewController: UIViewController {
          self.present(popUp, animated: true, completion: nil)
     }
 }
+    
+
+// MARK: - Navigation
+
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "dayFinder"{
+        let vc = segue.destination as! InfoViewController
+        vc.infoText = "DayFinder app helps you\n to find weekday for given date"
+        vc.appDescText = "This is my home work project"
+   }
+}
 }
