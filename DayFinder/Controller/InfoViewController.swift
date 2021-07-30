@@ -17,7 +17,7 @@ class InfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if infoText.isEmpty && !appDescText.isEmpty{
+        if !infoText.isEmpty && !appDescText.isEmpty{
             appInfoLabel.text = infoText
             appDescLabel.text = appDescText
         }

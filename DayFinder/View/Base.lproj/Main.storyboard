@@ -208,7 +208,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" image="info.circle" catalog="system" id="kRG-TH-uMq">
                             <color key="tintColor" systemColor="labelColor"/>
                             <connections>
-                                <segue destination="mdA-fL-xjX" kind="push" identifier="dayfinder" id="Taf-hD-wNQ"/>
+                                <segue destination="mdA-fL-xjX" kind="push" identifier="dayFinder" id="Taf-hD-wNQ"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="moon" image="moon.circle.fill" catalog="system" id="sf8-Ab-pzL">
